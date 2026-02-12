@@ -1,0 +1,172 @@
+form {
+    border-radius: 5px;
+    background-color: hsla(0, 19%, 91%, 0.788);
+    padding: 30px;
+}
+h1{
+    background-color: rgb(87, 228, 221);
+    text-align: center;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: Calibri;
+    border-radius: 5px;
+    padding: 10px;
+}
+p{
+   font-family: Calibri;
+   font-size: 20px; 
+   font-weight: bold;
+}
+#box.solid{
+    border: 2px groove hsla(0, 39%, 90%, 0.788);
+    background-color: hsla(0, 13%, 83%, 0.788);
+    /*margin-top: 10px;*/
+    height: 150px;
+    padding: 10px;
+    border-radius: 8px;
+}
+ul{
+    padding: 15px;
+}
+li{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.To-Do{
+    display: inline-block;
+    width: 1200px;
+    height: 20px;
+    flex: 5;
+    text-align: right;
+    border-radius: 5px;
+    background-color: lightcoral;
+    position: relative;
+    overflow: hidden
+}
+.In-Progress{
+    display: inline-block;
+    width: 1200px;
+    height: 20px;
+    flex: 5;
+    text-align: right;
+    border-radius: 5px;
+    background-color: yellow;
+    position: relative;
+    overflow: hidden
+}
+.Testing{
+    display: inline-block;
+    width: 1200px;
+    height: 20px;
+    flex: 5;
+    text-align: right;
+    border-radius: 5px;
+    background-color: lightblue;
+    position: relative;
+    overflow: hidden
+}
+.Done{
+    display: inline-block;
+    width: 1200px;
+    height: 20px;
+    flex: 5;
+    text-align: right;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    position: relative;
+    overflow: hidden
+}
+.task-info {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+}
+#task{
+    font-family: Calibri;
+    font-size: medium;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+}
+select{
+    padding: 11px 30px;
+    font-family: Calibri;
+    font-size: medium;
+    width: 18%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+#addbtn{
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    width: 8%;
+    background-color: rgb(87, 228, 221);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+#clearbtn{
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    width: 8%;
+    background-color: rgb(87, 228, 221);
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+h2{
+    background-color: rgb(62, 170, 165);
+    color: white;
+    text-align: center;
+    font-family: Calibri;
+    border-radius: 5px;
+    width: 800px;
+    font-size: 35px;
+    margin:0 auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+#square.dashed{
+    border: 2px groove hsla(0, 39%, 90%, 0.788);
+    background-color: hsla(0, 13%, 83%, 0.788);
+    margin: 0 auto;
+    height: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 600px;
+    font-size: 23px;
+    font-family: Calibri;
+    text-align: center;
+    margin-top: 40px;
+}
+/*input[type=login]*/
+#login{
+    text-align: center;
+    width: 40%;
+    background-color: green;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Calibri;
+    font-size: large;
+}
+input[type=text]{
+    width: 40%;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

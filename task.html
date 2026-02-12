@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Project</title>
+        <link rel="stylesheet" href="./task.css">
+    </head>
+        <body>
+            <h1>-DEVELOPER TASK MANAGER-</h1>
+            <form>
+            <div id="box" class="solid">    
+            <p><br>Task Description</p>
+            <input id="task" placeholder="New Task">
+            <!--<input id="status" placeholder="Status">-->
+            <select id="taskstatus">
+                <option value="To-Do">To Do</option>
+                <option value="In-Progress">In Progress</option>
+                <option value="Testing">Testing</option>
+                <option value="Done">Done</option>
+            </select>
+            <button id="addbtn" type="button" onclick="add()">Add</button>
+            <button id="clearbtn" type="button" clearAll()">Clear All</button>
+            </div>
+            <p>Task Lists</p>
+            <ul id="list"></ul>           
+        <script  src="./task.js"></script>
+            </form>
+        </body>
+</html>
